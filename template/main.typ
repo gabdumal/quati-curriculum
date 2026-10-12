@@ -1,6 +1,6 @@
 #import "@preview/quati-curriculum:0.1.0": (
-  components.header, components.section, packages.icons.icon, packages.icons.provide-icons, style.theme_colors,
-  template,
+  components.header, components.heading_icon, components.section, packages.icons.icon, packages.icons.provide-icons,
+  style.theme_colors, template,
 )
 
 
@@ -24,15 +24,13 @@
     // dark: black,
   ),
   // You can customize the icon that is displayed at the bottom of the page.
-  background_detail: icon(
-    width: 20em,
-    "tabler:trees",
-  ),
+  //   background_detail: icon(
+  //     width: 20em,
+  //     "tabler:trees",
+  //   ),
   // If you do not want to display any icon, use this definition instead.
   //   background_detail: none
 )
-
-#let heading_icon(icon_name) = icon(icon_name, y: -0.25em, width: 1.1em)
 
 
 // ## Content. Conteúdo.
