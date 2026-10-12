@@ -6,6 +6,7 @@
 #let header(
   first_name: "Gabriel",
   last_name: "Gonçalves",
+  picture: none,
 ) = context {
   let colors = kept_colors.get()
 
@@ -31,6 +32,21 @@
       ]
       #parbreak()
     ],
+
+    if picture != none {
+      box(clip: true, radius: 100%, width: 5em, height: 5em)[
+        #set image(
+          width: 100%,
+          height: 100%,
+        )
+        #picture
+      ]
+    },
+  )
+
+  line(
+    length: 100%,
+    stroke: colors.primary,
   )
 }
 
@@ -125,19 +141,4 @@
 //       #v(0.5em)
 //     ],
 
-//     if picture != none {
-//       box(clip: true, radius: 100%, width: 5em, height: 5em)[
-//         #set image(
-//           width: 100%,
-//           height: 100%,
-//         )
-//         #picture
-//       ]
-//     },
-//   )
-
-//   line(
-//     length: 100%,
-//     stroke: colors.primary,
-//   )
 // }

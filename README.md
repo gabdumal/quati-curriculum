@@ -35,8 +35,22 @@ Then, place this file in the `/assets` folder on this project.
 ```txt
 .
 ├── assets
-│   ├── images
-│   │   └── person.jpg
+│   ├── person.jpg
 │   └── tabler.json
 └── main.typ
+```
+
+## Customization
+
+If you want to display a **picture** of yours, **replace** the file `person.jpg` inside the `/assets` folder.
+
+Then, on the `main.typ` file, **modify** the `#header` component to use your uploaded file.
+
+```typst
+#header(
+  first_name: "Gabriel",
+  last_name: "Gonçalves",
+  picture: image("assets/person.jpg"), // Modify this line.
+  // ...
+)
 ```
