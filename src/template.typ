@@ -1,7 +1,7 @@
 // # Template. Modelo.
 
 #import "./packages.typ": icons
-#import "./style.typ": get_colors_for_updating_kept_colors, kept_colors
+#import "./state.typ": get_colors_for_updating_kept_colors, kept_colors
 
 #let template(
   colors: (:),
