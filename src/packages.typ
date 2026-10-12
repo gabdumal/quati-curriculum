@@ -1,3 +1,3 @@
 // # Packages. Pacotes.
 
-#import "@preview/fontawesome:0.6.2" as icons
+#import "@preview/iconify:0.5.3" as icons

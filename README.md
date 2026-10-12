@@ -24,25 +24,19 @@ On this file, you will find the importing of the `quati-curriculum` package.
 
 ## Configuration
 
-In order to render icons properly, you must **install** the most recent set of FontAwesome Icons.
+In order to render icons properly, you must **download** the most recent set of Tabler Icons from the project [**Iconify**](https://iconify.design/).
 
-Access the [downloads](https://fontawesome.com/download) page from Font Awesome, and download the **Font Awesome Free** set for **Desktop**.
+Access the [**downloads**](https://ecstrema.github.io/iconify-typst/) page from [Iconify Typst](https://typst.app/universe/package/iconify) project, and download the **Tabler** set.
 
-Then, **unzip** the file `fontawesome-free-<version>-desktop.zip`.
-This will be the content inside it.
+It will download a JSON file named `tabler.json`.
+
+Then, place this file in the `/assets` folder on this project.
 
 ```txt
-fontawesome-free-<version>-desktop
-├── otfs
-│   ├── Font Awesome 7 Brands-Regular-400.otf
-│   ├── Font Awesome 7 Free-Regular-400.otf
-│   └── Font Awesome 7 Free-Solid-900.otf
-└── ...
+.
+├── assets
+│   ├── images
+│   │   └── person.jpg
+│   └── tabler.json
+└── main.typ
 ```
-
-**Open** the folder `otfs`.
-
-**Open and install** these two `.otf` files:
-
-- `Font Awesome 7 Brands-Regular-400.otf`
-- `Font Awesome 7 Free-Regular-400.otf`
