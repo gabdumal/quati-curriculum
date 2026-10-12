@@ -1,6 +1,6 @@
 # quati-curriculum
 
-Modern and colorful Curriculum Vitae in Portuguese!
+Modern and colorful Curriculum Vitae, with icons!
 
 ## Initialization
 

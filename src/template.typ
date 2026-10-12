@@ -5,6 +5,10 @@
 
 #let template(
   colors: (:),
+  background_detail: icons.icon(
+    width: 20em,
+    "tabler:trees",
+  ),
   doc,
 ) = context {
   // Update states
@@ -24,10 +28,7 @@
         #set text(
           fill: colors_for_updating_kept_colors.primary.saturate(100%).transparentize(95%),
         )
-        #icons.icon(
-          width: 20em,
-          "tabler:trees",
-        )
+        #background_detail
       ]
     ],
   )
@@ -48,14 +49,13 @@
       weight: "extrabold",
     )
     set block(
-      above: 0.5em,
+      above: 0.75em,
       below: 0.5em,
     )
 
     if it.level == 1 {
-      set text(colors_for_updating_kept_colors.primary)
+      set text(colors_for_updating_kept_colors.primary, size: 1em)
       block(
-        above: 0.75em,
         breakable: false,
         stroke: (
           bottom: colors_for_updating_kept_colors.primary,
