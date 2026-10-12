@@ -139,6 +139,7 @@
   r1c2: "2018",
   r1c1: "Pesquisa em Modelagem Analítica",
   r2c1: "Universidade Estadual de Campinas (Unicamp)",
+  r2c2: "Campinas, SP",
   r3: [
     - Desenvolvimento de modelos preditivos para análise de grandes volumes de dados.
     - Publicação de artigos em conferências internacionais.
