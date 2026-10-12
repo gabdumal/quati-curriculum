@@ -162,4 +162,4 @@
 
 == #heading_icon("tabler:language") Idiomas
 
-- *Inglês:* Fluente. Escola de Idiomas #link("https://ccaa.com.br/", "CCAA").
+- *Inglês:* Fluente. Curso #link("https://www.gov.br/mec/pt-br/mec-idiomas", "MEC Idiomas").
